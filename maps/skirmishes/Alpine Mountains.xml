@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="5">
+	<Environment>
+		<SkySet>fog</SkySet>
+		<SunColour r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="0.280534"/>
+		<SunRotation angle="-0.657528"/>
+		<TerrainAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<UnitsAmbientColour r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColour r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Colour r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>5</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="286.06" y="261.888" z="626.614"/>
+		<Rotation angle="2.96246"/>
+		<Declination angle="0.610866"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "CircularMap": true,
+  "Description": "Give an interesting description of your map.",
+  "Name": "Unnamed map",
+  "PlayerData": [
+    {
+      "Civ": "athen"
+    },
+    {
+      "Civ": "cart"
+    },
+    {
+      "Civ": "celt"
+    },
+    {
+      "Civ": "iber"
+    },
+    {
+      "Civ": "mace"
+    },
+    {
+      "Civ": "pers"
+    },
+    {
+      "Civ": "rome"
+    },
+    {
+      "Civ": "spart"
+    }
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="12">
+			<Template>skirmish/structures/default_civil_centre</Template>
+			<Player>0</Player>
+			<Position x="247.18706" z="81.2522"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="12060"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="433.44166" z="215.83063"/>
+			<Orientation y="-3.09449"/>
+			<Actor seed="35618"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="425.99155" z="219.98478"/>
+			<Orientation y="2.12287"/>
+			<Actor seed="31678"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="414.6244" z="213.54273"/>
+			<Orientation y="-2.94234"/>
+			<Actor seed="60816"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="416.08506" z="223.58408"/>
+			<Orientation y="3.13315"/>
+			<Actor seed="14590"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="420.21851" z="227.95823"/>
+			<Orientation y="-2.61342"/>
+			<Actor seed="45162"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="417.4073" z="235.71726"/>
+			<Orientation y="-2.96602"/>
+			<Actor seed="2022"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="412.91327" z="246.96969"/>
+			<Orientation y="-3.03568"/>
+			<Actor seed="59280"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="421.4221" z="252.92481"/>
+			<Orientation y="-2.92363"/>
+			<Actor seed="47126"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="424.19889" z="264.14521"/>
+			<Orientation y="-2.41968"/>
+			<Actor seed="4702"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="409.61323" z="256.36573"/>
+			<Orientation y="-2.69068"/>
+			<Actor seed="53472"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="402.56937" z="263.92481"/>
+			<Orientation y="-2.36112"/>
+			<Actor seed="6820"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="375.02845" z="209.17612"/>
+			<Orientation y="3.11915"/>
+			<Actor seed="25942"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="368.0966" z="216.59871"/>
+			<Orientation y="-3.08997"/>
+			<Actor seed="26032"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="366.19373" z="209.77967"/>
+			<Orientation y="-2.97434"/>
+			<Actor seed="14898"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="355.48227" z="208.6839"/>
+			<Orientation y="2.94326"/>
+			<Actor seed="22364"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="358.07261" z="216.26961"/>
+			<Orientation y="3.05456"/>
+			<Actor seed="23974"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>gaia/flora_tree_pine_w</Template>
+			<Player>0</Player>
+			<Position x="354.81757" z="222.09641"/>
+			<Orientation y="-2.89768"/>
+			<Actor seed="10188"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>
